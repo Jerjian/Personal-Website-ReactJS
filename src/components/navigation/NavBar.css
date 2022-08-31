@@ -42,14 +42,20 @@
         display: flex;
         flex-direction: column;
         right: 0px;
-        top: 80px;
+        top: 76px;
         position: absolute;
         width: 100%;
+        background-color: #CFD2CF;
+        border-top: 2px solid white;
+
     }
-    .NavBar .MobileNavigation .NavLinks a{
+    .NavBar .MobileNavigation .NavLinks .NavLinks-item{
         margin-bottom: 5px;
-        display: inline-block;
+        padding-left: 50%;
+    }
+    .GiHamburgerMenu, .AiOutlineClose{
+        cursor: pointer;
     }
 }
-  
+
   
