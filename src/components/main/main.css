@@ -1,0 +1,38 @@
+.About{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px;
+    align-items: center;
+}
+.about-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.about-desc{
+    margin-top: 20px;
+    display: flex;
+}
+.about-desc-christianImg{
+    border-radius: 20px;
+    width: 50%;
+}
+.about-desc-text{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 580px){
+    .about-desc{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-desc-christianImg{
+        border-radius: 20px;
+        width: 70%;
+    }
+    .about-desc-text{
+        padding: 0 10px;
+        margin: 10px 0 0 0;
+    }
+}

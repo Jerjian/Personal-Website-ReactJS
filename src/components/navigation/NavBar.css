@@ -1,11 +1,14 @@
 .Navigation, .MobileNavigation{
-    background-color: pink;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px 80px;
     background-color: #CFD2CF;
+    /* height: auto; */
+}
+.Navigation > img, .MobileNavigation > img {
+    cursor: pointer;
 }
 .nav-logo{
     border-radius: 50%;
@@ -27,32 +30,42 @@
     text-decoration: none;
 }
 
-.NavBar .MobileNavigation{
+.MobileNavigation{
     display: none;
 }
+
+
 @media (max-width: 580px){
-    .NavBar .MobileNavigation{
-        display: flex;
+    .MobileNavigation{
+        display: flex; 
     }
-    .NavBar .Navigation{
+    .Navigation{
         display: none;
     }
 
     .NavBar .MobileNavigation .NavLinks{
         display: flex;
         flex-direction: column;
-        right: 0px;
-        top: 76px;
-        position: absolute;
         width: 100%;
+        position: absolute;
+        top: 76px;
         background-color: #CFD2CF;
-        border-top: 2px solid white;
+        left: 0;
+        opacity: 90%;
 
     }
-    .NavBar .MobileNavigation .NavLinks .NavLinks-item{
+
+    .NavLinks > a{
+        margin: 0;
         margin-bottom: 5px;
-        padding-left: 50%;
+        align-items: center;
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        border-top: 1px solid black;
     }
+
     .GiHamburgerMenu, .AiOutlineClose{
         cursor: pointer;
     }

@@ -6,7 +6,7 @@ import NavLinks from "./NavLinks"
 export default function(){
     return(
         <nav className="Navigation">
-            <img src={logo} alt="logo-img" className="nav-logo" />
+            <a href="#"><img src={logo} alt="logo-img" className="nav-logo" /></a>
             <NavLinks />
         </nav>
     )

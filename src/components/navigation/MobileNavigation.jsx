@@ -7,14 +7,17 @@ import {AiOutlineClose} from  "react-icons/ai"
 
 export default function(){
     const [burger, setBurger] =  React.useState(false)
-    function toggleBuger(){
+    function toggleBuger(event){
+        console.log(event)
         setBurger(prevBurger => !prevBurger)
     }
+
     return(
         <nav className="MobileNavigation">
             <img src={logo} alt="logo-img" className="nav-logo" />
-            {burger && <NavLinks />}
-            {burger ?<AiOutlineClose className="AiOutlineClose" onClick={toggleBuger}/> : <GiHamburgerMenu className="GiHamburgerMenu" onClick={toggleBuger} />}
+            {burger && <NavLinks 
+                        setBurger={setBurger}/>}
+            {burger ? <AiOutlineClose className="AiOutlineClose" onClick={toggleBuger}/> : <GiHamburgerMenu className="GiHamburgerMenu" onClick={toggleBuger} />}
         </nav>
     )
 
