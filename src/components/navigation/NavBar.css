@@ -1,0 +1,35 @@
+.Navigation, .MobileNavigation{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #CFD2CF;
+  }
+  .nav-logo{
+    border-radius: 50%;
+    height: 3.5rem;
+  }
+  .nav-menu{
+    display: flex;
+  }
+  .nav-menu > a{
+    margin-left: 30px;
+    text-decoration: none;
+  }
+
+.NavBar .MobileNavigation{
+    display: none;
+}
+@media (max-width: 580px){
+    .NavBar .MobileNavigation{
+        display: flex;
+        background-color: black;
+    }
+    .NavBar .Navigation{
+        display: none;
+    }
+}
+  
+  
