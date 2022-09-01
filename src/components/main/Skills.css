@@ -1,0 +1,51 @@
+/* Skills */
+.Skills{
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 180px 0 180px;
+    align-items: center;
+}
+.skills-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
+.skills-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+.skills-info-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: underline;
+}
+.skills-info-web-tech-ul > li:before, .skills-info-add-lang-ul > li::before {
+    content: "-";
+}
+
+@media (max-width: 843px){
+    .Skills{
+        padding: 0;
+    }
+    .skills-info{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .skills-info-add-lang{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+

@@ -33,8 +33,8 @@ hr{
     border: 0px;
     border-top: 5px solid;
     border-style: dotted;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
     width: 25%;
     color: #71757A;
 }
@@ -62,47 +62,7 @@ hr{
     .about-desc-text > p:first-child{
         text-align: center;
     }
-}
-
-
-/* WORK */
-
-.Work{
-    margin-top: 0px;
-    padding-top: 0px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 80px 0 80px;
-    align-items: center;
-}
-.projects{
-    margin-top: 20px;
-    display: flex;
-}
-.work-title{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: x-large;
-}
-.project-info{
-    
-}
-.project-info > * {
-    margin-bottom: 20px;
-    /* font-weight: 100; */
-    font-size: 15px;
-
-}
-.projects-info-title{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: large;
-}
-
-.project-img{
-
-}
-.projects-img-item{
-    width: 500px;
-    border-radius: 10px;
+    .about-desc-text > p:last-child{
+        margin: 0;
+    }
 }

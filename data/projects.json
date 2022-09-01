@@ -2,6 +2,21 @@
     "projects":[
         {
             "id": 1,
+            "title":"Personal Website using React",
+            "githubLink": "https://github.com/Jerjian/Personal-Website-ReactJS",
+            "deployedLink": "",
+            "description": "Built a Personal Website using React in order to introduce myself and showcase my previous projects. This website is dynamic, which means that any number of projects could be added to the projects.json file and the number of projects will be filled automatically. The purpose of this website is to practice my React skills",
+            "technologies":[
+                "React",
+                "JavaScript",
+                "CSS",
+                "Node & NPM"
+            ],
+            "image": "/project-images/PersonalWebsite.jpeg"
+
+        },
+        {
+            "id": 2,
             "title":"Cyclist Map App",
             "githubLink": "https://github.com/Jerjian/CyclistMapProject",
             "deployedLink": "",
@@ -19,7 +34,7 @@
             "image": "/project-images/CyclistWebApp.jpeg"
         },
         {
-            "id": 2,
+            "id": 3,
             "title":"Big Tech News",
             "githubLink": "https://github.com/Jerjian/twitterbot",
             "deployedLink": "https://twitter.com/BigTech_News",
