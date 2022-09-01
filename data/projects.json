@@ -1,0 +1,37 @@
+{
+    "projects":[
+        {
+            "id": 1,
+            "title":"Cyclist Map App",
+            "githubLink": "https://github.com/Jerjian/CyclistMapProject",
+            "deployedLink": "",
+            "description": "As part of Introduction to Software Engineering (COMP 354) class. We were a group of 120 Students built a mobile and Web App for cyclists. More specifically, my team and I built a Map and Calendar for Cyclists to track their progress. Map and Calendar are both integrated with the Google API. We communicated and integrated with over 10 groups (Weather, Speed data, Splits data...)",
+            "technologies":[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "EJS",
+                "ExpressJS",
+                "Google API",
+                "Node & NPM",
+                "Restful Routes Integration"
+            ],
+            "image": "/project-images/CyclistWebApp.jpeg"
+        },
+        {
+            "id": 2,
+            "title":"Big Tech News",
+            "githubLink": "https://github.com/Jerjian/twitterbot",
+            "deployedLink": "https://twitter.com/BigTech_News",
+            "description": "Built a news aggregated on Twitter. This twitter bot fetches from the TickerTick API every 30 seconds and posts the most interesting news on Big Tech companies. This bot has been active a since late July and has gathered over 200 followers. I built this Twitter Bot because I was looking for a news aggregator for the biggest companies in the world.",
+            "technologies":[
+                "Node & NPM",
+                "NPM",
+                "JavaScript",
+                "Twitter API",
+                "Deployment Technologies (Heroku)"
+            ],
+            "image": "/project-images/BigTechNews.jpeg"
+        }
+    ]
+}
