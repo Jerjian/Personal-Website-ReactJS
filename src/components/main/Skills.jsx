@@ -1,8 +1,6 @@
 import React from "react";
-// import { DiReact } from "@react-icons/di";
 import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithubBadge, DiNodejs, DiMongodb, DiGoogleCloudPlatform, DiJava, DiPython} from "react-icons/di";
 import {AiOutlineConsoleSql} from "react-icons/ai"
-import { IconContext } from "react-icons";
 import "./Skills.css"
 
 
@@ -40,6 +38,7 @@ export default function(){
                     </ul>   
                 </div>
             </div>
+            <hr />
         </div>
     )
 }
