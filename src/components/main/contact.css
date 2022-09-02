@@ -28,6 +28,15 @@
     width: 50px;
     height: 50px;
 }
+.skills-info-web-tech-ul > li {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+.skills-icon{
+    height: 30px;
+    width: 30px;
+}
 
 .contact-info-logo-icon:active {
   box-shadow: 0 5px #666;

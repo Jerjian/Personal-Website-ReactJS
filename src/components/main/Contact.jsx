@@ -7,7 +7,7 @@ import {AiFillLinkedin} from "react-icons/ai"
 
 export default function(){
     return(
-        <div className="Contact">
+        <div className="Contact" id="Contact">
             <h1 className="contact-title">Contact</h1>
             <div className="contact-info">
                 <p>By email: christianjerjian@gmail.com</p>

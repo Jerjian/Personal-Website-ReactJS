@@ -19,7 +19,7 @@
             "id": 2,
             "title":"Cyclist Map App",
             "githubLink": "https://github.com/Jerjian/CyclistMapProject",
-            "deployedLink": "",
+            "deployedLink": "https://www.youtube.com/watch?v=hPMkz1TTyvo",
             "description": "As part of Introduction to Software Engineering (COMP 354) class. We were a group of 120 Students built a mobile and Web App for cyclists. More specifically, my team and I built a Map and Calendar for Cyclists to track their progress. Map and Calendar are both integrated with the Google API. We communicated and integrated with over 10 groups (Weather, Speed data, Splits data...)",
             "technologies":[
                 "HTML",

@@ -31,7 +31,7 @@ export default function(){
     }))
 
     return(
-        <div className="Work">
+        <div className="Work" id="Work">
             <h1 className="work-title">My Work</h1>
             <div className="work-desc">   
                 {projectElements}

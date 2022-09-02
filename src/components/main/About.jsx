@@ -3,7 +3,7 @@ import christianImg from "../../assets/Jerjian_Christian_skype.jpg"
 
 export default function(){
     return(
-        <div className="About">
+        <div className="About" id="About">
             <h1 className="about-title">About me</h1>
             <div className="about-desc">
                 <img src={christianImg} alt="" className="about-desc-christianImg" />
